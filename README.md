@@ -15,7 +15,9 @@ A powerful tool for monitoring system metrics on Linux-based systems, using the 
 ## Introduction
 System Metrics Monitor is designed to deliver real-time insights into your Linux system's performance. It leverages the robustness of C++ and the intuitiveness of the FTXUI library to present crucial system metrics effectively.
 
-<img width="782" alt="SystemMetrics" src="https://github.com/Dev-YassineCheracher/SystemMetricsMonitor/assets/128902236/c0daa541-909d-4795-ba8b-065e25810b21">
+<p align="center">
+  <img width="782" alt="SystemMetrics" src="https://github.com/Dev-YassineCheracher/SystemMetricsMonitor/assets/128902236/c0daa541-909d-4795-ba8b-065e25810b21">
+</p>
 
 ## Features
 - **Real-time Monitoring**: Tracks and displays CPU usage, memory usage, and other vital system metrics in real time.
