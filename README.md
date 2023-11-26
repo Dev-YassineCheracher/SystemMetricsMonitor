@@ -1,5 +1,9 @@
 # System Metrics Monitor
 
+<p align="center">
+A powerful tool for monitoring system metrics on Linux-based systems, using the FTXUI library for a user-friendly interface.
+</p>
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [Features](#features)
@@ -9,43 +13,42 @@
 - [License](#license)
 
 ## Introduction
-The System Metrics Monitor is a powerful tool written in C++ using FTXUI library. It is designed to monitor and display various system metrics for Linux-based operating systems.
+System Metrics Monitor is designed to deliver real-time insights into your Linux system's performance. It leverages the robustness of C++ and the intuitiveness of the FTXUI library to present crucial system metrics effectively.
+
+<img width="782" alt="SystemMetrics" src="https://github.com/Dev-YassineCheracher/SystemMetricsMonitor/assets/128902236/c0daa541-909d-4795-ba8b-065e25810b21">
 
 ## Features
-- Real-time activity monitoring: The System Metrics Monitor can display real-time metrics about system usage, including CPU usage, memory usage, and more.
-- Easy-to-use interface: The FTXUI-based interface is intuitive and user-friendly, making it easy to understand the system's status at a glance.
+- **Real-time Monitoring**: Tracks and displays CPU usage, memory usage, and other vital system metrics in real time.
+- **Intuitive Interface**: User-friendly and easy to navigate, ensuring a seamless monitoring experience.
 
 ## Installation
-To install the System Metrics Monitor, follow these steps:
-
+To get started with System Metrics Monitor:
 1. Clone the repository:
-    ```bash
-    git clone https://github.com/dev-Yassin/System-Metrics-Monitor.git
-    ```
-2. Navigate into the cloned repository:
-    ```bash
-    cd System-Metrics-Monitor
-    ```
-3. Compile the source code:
-    ```bash
-    make
-    ```
+   ```bash
+   git clone https://github.com/dev-Yassin/System-Metrics-Monitor.git
+   ```
+2. Enter the directory:
+   ```bash
+   cd System-Metrics-Monitor
+   ```
+3. Compile the source:
+   ```bash
+   make
+   ```
 4. Run the application:
-    ```bash
-    ./System-Metrics-Monitor
-    ```
+   ```bash
+   ./System-Metrics-Monitor
+   ```
 
 ## Usage
-After starting the System Metrics Monitor, you will see a screen displaying various system metrics. Use the Function keys (F1, F2, F3, etc.) to navigate through different metrics.
+Upon launching, the System Metrics Monitor displays various system metrics. Utilize Function keys (F1, F2, F3, etc.) for navigation.
 
 ## Contributing
-Contributions to the System Metrics Monitor are always welcome. To contribute:
-
+contributions are welcome! Here's how you can help:
 1. Fork the repository.
-2. Create a new branch for your changes.
-3. Commit your changes to your branch.
-4. Push your changes to your forked repository.
-5. Submit a pull request.
+2. Create a new branch for your feature or fix.
+3. Commit and push your changes.
+4. Submit a pull request.
 
 ## License
-The System Metrics Monitor is open-source software licensed under the MIT License. For more details, see the LICENSE file in the repository.
+This project is available under the MIT License. See the LICENSE file for more details.
