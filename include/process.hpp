@@ -1,7 +1,3 @@
-//
-// Created by M2 on 30/8/2023.
-//
-
 #ifndef SMON_PROCESS_HPP
 #define SMON_PROCESS_HPP
 #include <iostream>

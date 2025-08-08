@@ -1,9 +1,10 @@
-
-
 #ifndef SMON_PROCESSACTIVITYMONITORING_HPP
 #define SMON_PROCESSACTIVITYMONITORING_HPP
-#include <ftxui/component/component.hpp>  // for ComponentBase
-using namespace ftxui;
+
+#include <ftxui/component/component.hpp>
+#include <string>
+#include <vector>
+
 struct Process {
     int pid;
     int ppid;
@@ -15,21 +16,8 @@ struct Process {
     double write_speed;
 };
 
+// Declare the helper functions
 void showProcessInfo(int start, std::vector<Process> processes);
-
 std::vector<Process> getProcesses();
-
-class ProcessActivityMonitoring : public ComponentBase {
-private:
-    Process process;
-    int usage;
-
-public:
-    explicit ProcessActivityMonitoring(Process process, int usage);
-
-    std::wstring swipeRight(const std::wstring &original, int size);
-
-    Element Render() override;
-};
 
 #endif //SMON_PROCESSACTIVITYMONITORING_HPP

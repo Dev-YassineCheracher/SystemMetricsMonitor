@@ -1,3 +1,4 @@
+#include "../include/Components.hpp"
 #include "include/Process.hpp"
 #include <iostream>
 #include <fstream>
@@ -22,7 +23,6 @@ Process::Process(int pid, double cpuUsage) : pid(pid), cpuUsage(cpuUsage) {}
     bool Process::populateInfo() {
 
         memoryUsage = memoryUsagePerProcess(pid);
-        // cpuUsage = cpuUsagePerProcess(pid);
         std::ifstream statusFile("/proc/" + std::to_string(pid) + "/status");
         if (!statusFile) {
             return false;
@@ -104,16 +104,6 @@ Process::Process(int pid, double cpuUsage) : pid(pid), cpuUsage(cpuUsage) {}
     }
 
 
-
-//    void Process::printTree(int depth = 0) {
-//        for (int i = 0; i < depth; ++i) {
-//            std::cout << "  ";
-//        }
-//        std::cout << "PID: " << pid << " PPID: " << ppid << " Command: " << command << std::endl;
-//        for (const Process* child : children) {
-//            child->printTree(depth + 1);
-//        }
-//    }
 
     std::vector<std::string> Process::split(const std::string& s, char delimiter) {
         std::vector<std::string> tokens;
